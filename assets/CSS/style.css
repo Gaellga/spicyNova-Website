@@ -1,55 +1,63 @@
 @font-face {
-  font-family: 'Satisfy';
+  font-family: 'bebas_neueregular';
+  src: local('BebasNeue Regular'), local('Bebas-Neue-Regular')
+       url('/assets/fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+       url('/assets/fonts/bebasneue-regular-webfont.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v9/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
 }
 @font-face {
-  font-family: 'Quattrocento Sans';
+  font-family: 'black_diamondregular';
+  src: url('/assets/fonts/set-sail-studios-black-diamond-webfont.woff2') format('woff2'),
+       url('/assets/fonts/set-sail-studios-black-diamond-webfont.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://fonts.gstatic.com/s/quattrocentosans/v11/va9c4lja2NVIDdIAAoMR5MfuElaRB0zHt0_uHA.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Quattrocento Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://fonts.gstatic.com/s/quattrocentosans/v11/va9c4lja2NVIDdIAAoMR5MfuElaRB0zJt08.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
 }
 body {
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: "bebas_neueregular";
   font-size: 1.3em;
-  background-color: rgb(255, 255, 255);
   color:rgb(44, 43, 43);
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
   margin:0;
 }
-/* ---------------- ACCUEIL-------------------- */
+section{
+  margin-bottom:7%;
+}
+/* ----------------PAGE D'ACCUEIL-------------------- */
 h1 {
-  font-size:2em;
+  font-size:4em;
   padding-bottom:2%;
   padding-top:2%;
 }
+p{
+  color: rgb(70, 70, 70);
+  letter-spacing: 0.1em;
+}
 a {
-  color: rgb(90, 76, 76);
+  color: rgb(201, 66, 66);
 }
 a:hover{
   color:rgb(26, 26, 26);
+  opacity: 0.7;
 }
 .navbar-nav li a:hover {
   background-color: rgba(15, 107, 150, 0.3);
   border-radius: 5px;
 }
+.logoo{
+  margin: 2% 4%;
+}
 .jumbotron{
-  margin-top: 2%;
-  font-family: 'Satisfy';
+  margin: 4%;
+  font-family: 'black_diamondregular';
   font-size: 1.3em;
-  padding:3%; 
+  padding:1%; 
+  background-color: white;
+  text-align: left;
 }
 .fa {
   text-align: center;
@@ -59,13 +67,25 @@ a:hover{
 .fa:hover {
   opacity: 0.7;
 }
-.follow{
-  font-size:0.8em;
-  padding-top:1%;
-  color:rgb(255, 255, 255);
-}
 .footer-copyright{
   font-size:0.8em;
   padding-top:1%;
   color: rgb(14, 13, 13);
+}
+#backgroundPink{
+  background-color:#DF6D6D;
+  position: relative;
+}
+#imgCouv{
+  position: absolute;
+  right: 0%;
+  top: -25%;
+  transform: rotate(10deg);
+}
+.img-center{
+  padding:10%;
+  margin-left:-28%;
+}
+.marginFeuper{
+  margin-top:10%;
 }

@@ -6,7 +6,8 @@
     <meta name="description" content="Website du collectif spicyNova">
     <meta name="keywords" content="spicyNova collectif collective artist artiste fanzine art numerique">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
     <link href="assets/CSS/style.css" rel="stylesheet" media="all" type="text/css">
     <title>spicyNova</title>
     <link rel="icon" type="image/png" href="assets/img/fav-min.png" />
@@ -14,9 +15,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light sticky-top text-dark">
+    <!--<nav class="navbar navbar-expand-md navbar-light sticky-top text-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="logoAnim img-fluid" src="assets/img/logo.png" width="100"
+            <a class="navbar-brand" href="index.html"><img class="logoAnim img-fluid" src="assets/img/logonb.png" width="170"
                     alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
@@ -31,59 +32,80 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>-->
     <header>
         <div class="row">
-            <div class="col-12"><img src="assets/img/bann-min.jpeg" class="img-fluid" alt="Image de bannière"></div>
+            <div class="col-12 fixed-top logoo"><img src="assets/img/logonb.png" class="img-fluid" alt="Image de bannière"
+                    width="170"></div>
+        </div>
+        <div class="jumbotron text-center">
+            <h3>Bienvenue chez</h3>
+            <h1>spicyNova</h1>
         </div>
     </header>
     <section>
         <div class="container pb-4">
-            <div class="jumbotron text-center">
-                <p>Vous voici sur la page du collectif, <span id="prenom"></span></p>
-                <h1>spicyNova !</h1>
-                <h3>- Collectif d'art numérique basé à Etterbeek -</h3>
-            </div>
             <div class="row">
-                <div class="col-1 col-md-2"></div>
-                <div class="col-10 col-md-8 text-justify">
-                    <p>spicyNova est un jeune collectif d'artistes fondé par trois amis : Alice, Gaëlle et Sébastien, fraichement diplômés de la Haute École des Arts Saint-Luc Bruxelles. Leur spécialité : les arts numériques. Au terme de leurs études, ils décidèrent de s'associer afin de continuer à travailler ensemble et de se lancer dans la production d'un fanzine, qu'ils intitulèrent "FeuperNova".</p>
-                    <p>FeuperNova, c'est un fanzine un peu à part, à la fois profond et décalé. L'identité de ce projet s'est certes à partir des différentes compétences des fondateurs du collectif, mais également grâce à la collaboration étroite de deux autres jeunes artistes issus de la même école, Camille et Igor, qui prirent part à la conception du fanzine depuis le début de l'aventure. </p>
-                    <p>Une voix interpelle soudain nos amis.
-
-                        APHRODITE : C'eeest moooi !
-                        
-                        Seyar et Shun se retournent dans un écran splitté, et admirent alors un incroyable spectacle : dans un travelling pailleté d'étincelles, et avec le célèbre "I'm Too Sexy" de Right Said Fred, apparaît le Chevalier d'Or de cet épisode...</p>
-                    <p>Un rire terrifiant.
-                        Intérieur de la Maison.
-                        MILO: (riant terrifiquement)
-                        SHIRYÛ: Oh, mais tu es...!
-                        Le propriétaire du rire se dévoile à l’écran : c’est…
-                        SHIRYÛ: Tu es Tristan des BeeHive !
-                        MILO: Ha ha ! Et oui, c'est bien moi, je suis... Mais, de- Quoi ?!
-                        Extrait de l'émission Fan de avec Tristan (des BeeHive), pour les moins de vingt ans qui ne peuvent pas connaître.
-                        SEYAR: (en admiration) Oh, j'ai tous vos disques, vous êtes trop beaux !
-                        SHIRYÛ: Je peux avoir un autographe sur mon bouclier ?
-                        MILO: (les interrompant dans leurs délires de groupies) Mais je ne suis pas Tristan des BeeHive ! Je suis Milo du Scorpion !
-                        SEYAR: Le groupe allemand ?</p>
+                <div class="col-1 col-md-1"></div>
+                <div class="col-10 col-md-10 text-center parag mb-5">
+                    <p>spicyNova est un jeune collectif d'artistes fondé par trois amis : Alice, Gaëlle et Sébastien,
+                        fraichement diplômés de la Haute École des Arts Saint-Luc Bruxelles. </p><p>Leur spécialité : les arts
+                        numériques.</p>
+                        <p>Au terme de leurs études, ils décidèrent de s'associer afin de continuer à
+                        travailler ensemble et de se lancer dans la production d'un fanzine, qu'ils intitulèrent
+                        "FeuperNova".</p>
                 </div>
-                <div class="col-1 col-md-2"></div>
+                <div class="col-1 col-md-1"></div>
             </div>
         </div>
     </section>
-    <footer class="page-footer mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="follow col-md-12 text-center">
-                    <p>Suivez-nous sur :</p>
+    <section>
+        <div id="backgroundPink">
+            <div class="container pb-4">
+                <div class="row">
+                    <img src="assets/img/couv.png" width="1000px" id="imgCouv">
+                </div>
+                <div class="row">
+                    <div class="col-10 col-md-7 text-center mt-5">
+                        <p class="text-light marginFeuper">FeuperNova, c'est un fanzine un peu à part, à la fois profond et décalé.</p><p class="text-light"> L'identité de ce projet grâce
+                            à la collaboration étroite de deux autres jeunes artistes issus de la même école, Camille
+                            et
+                            Igor,
+                            qui prirent part à la conception du fanzine depuis le début de l'aventure. </p>
+                    </div>
+                    <div class="col-1 col-md-5"></div>
+                </div>
+                <div class="row mt-5 mb-4 imgContainer">
+                    <div class="col-12 col-md-4">
+                        <img src="assets/img/couvdos.png" width="550px" class="img-responsive img-center">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/img/int1.png" width="550px" class="img-responsive img-center">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/img/couvdos.png" width="550px" class="img-responsive img-center">
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-12 col-md-12 text-center">
+                    <p class="text-light">Commandez-le ici!</p>
+                    <script src="//www.powr.io/powr.js?external-type=html"></script> 
+                    <div class="powr-paypal-button" id="7edce0a6_1552994375"></div>
+                </div>
                 </div>
             </div>
-            <div class="row">
+    </section>
+    <section>
+        <h3>membres</h3>
+    </section>
+    <footer class="page-footer mt-5">
+        <div class="container">
+            <div class="row ">
                 <div class="col-12 pb-3 text-center">
                     <a href="https://www.facebook.com/" aria-label="Access Facebook page"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/spicynova_collectif/" aria-label="Access Instagram page"><i class="fa fa-instagram"></i></a>
                     <a href="https://twitter.com/?lang=fr" aria-label="Access Twitter page"><i class="fa fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/" aria-label="Access Linkedin page"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/" aria-label="Access Instagram page"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.pinterest.com/" aria-label="Access Pinterest page"><i class="fa fa-pinterest"></i></a>
                 </div>
             </div>
