@@ -1,16 +1,17 @@
 @font-face {
   font-family: 'bebas_neueregular';
-  src: local('BebasNeue Regular'), local('Bebas-Neue-Regular')
-       url('/assets/fonts/bebasneue-regular-webfont.woff2') format('woff2'),
-       url('/assets/fonts/bebasneue-regular-webfont.woff') format('woff');
+  src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+       url('../fonts/bebasneue-regular-webfont.woff') format('woff'),
+       url('../fonts/BebasNeue-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
   font-family: 'black_diamondregular';
-  src: url('/assets/fonts/set-sail-studios-black-diamond-webfont.woff2') format('woff2'),
-       url('/assets/fonts/set-sail-studios-black-diamond-webfont.woff') format('woff');
+  src: url('../fonts/set-sail-studios-black-diamond-webfont.woff2') format('woff2'),
+       url('../fonts/set-sail-studios-black-diamond-webfont.woff') format('woff'),
+       url('../fonts/Set-Sail-Studios-Black-Diamond.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -79,12 +80,13 @@ a:hover{
 #imgCouv{
   position: absolute;
   right: 0%;
-  top: -25%;
+  top: -30%;
   transform: rotate(10deg);
 }
 .img-center{
   padding:10%;
   margin-left:-28%;
+  margin-top: 10%;
 }
 .marginFeuper{
   margin-top:10%;
