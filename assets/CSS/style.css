@@ -26,13 +26,14 @@ body {
   margin:0;
 }
 section{
-  margin-bottom:7%;
+  margin-bottom:5%;
 }
 /* ----------------PAGE D'ACCUEIL-------------------- */
 h1 {
-  font-size:4em;
+  font-size:5em;
   padding-bottom:2%;
   padding-top:2%;
+  color: rgb(201, 66, 66);
 }
 p{
   color: rgb(70, 70, 70);
@@ -76,6 +77,7 @@ a:hover{
 #backgroundPink{
   background-color:#DF6D6D;
   position: relative;
+  margin-top: 10%;
 }
 #imgCouv{
   position: absolute;
@@ -86,8 +88,29 @@ a:hover{
 .img-center{
   padding:10%;
   margin-left:-28%;
-  margin-top: 10%;
+  margin-top: 30%;
 }
 .marginFeuper{
   margin-top:10%;
+}
+.membres{
+  margin: 0 10% 0 10%;
+}
+.photos{
+  border-radius:50%;
+}
+.photos:hover{
+  background-color: rgba(0, 0, 0);
+  opacity: 0.6;
+}
+.textHover{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position:relative;
+  bottom:110px;
+  visibility:hidden;
+  color:black;
+}
+.textHover:hover{
+  visibility:visible;
 }
