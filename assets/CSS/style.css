@@ -40,6 +40,10 @@ h2{
   padding-bottom:4%;
   color: #c94242;
 }
+hr{
+  margin: 0;
+  color:white;
+}
 p{
   padding:2%;
 }
@@ -120,6 +124,10 @@ figure > p{
   font-size: 0.8em;
   color: rgb(94, 93, 93);
 }
+#remerciement{
+  font-size:0.65em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .photos {
   border-radius: 50%;
   transition: filter .5s ease-in-out;
@@ -157,18 +165,23 @@ figure > p{
 }
 .page-footer .fab{
   font-size: 2em;
-  padding:0 4% 0 4%;
+  padding:2.5% 5% 3% 4%;
 }
-#follow{
-  font-size:0.58em;
+.contact{
+  font-size:0.65em;
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-bottom:1%;
+  padding:0%;
+  padding-top:5%;
+}
+#mailTel{
+  color: white;
+  padding:3%;
 }
 .footer-copyright{
   font-size:0.6em;
-  padding-top:1%;
-  color: rgb(247, 247, 247);
+  padding:1%;
+  color: rgb(255, 255, 255);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
 }
