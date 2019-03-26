@@ -172,6 +172,7 @@ figure > p{
 .footer-copyright{
   font-size:0.6em;
   padding-top:1%;
-  color: rgb(44, 24, 24);
+  color: rgb(247, 247, 247);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
 }
