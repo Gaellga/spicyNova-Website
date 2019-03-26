@@ -5,7 +5,6 @@
        url('../fonts/BebasNeue-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-
 }
 @font-face {
   font-family: 'black_diamondregular';
@@ -14,7 +13,6 @@
        url('../fonts/Set-Sail-Studios-Black-Diamond.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-
 }
 body {
   font-family: "bebas_neueregular";
@@ -24,8 +22,6 @@ body {
   height: 100vh;
   overflow-x: hidden;
   margin:0;
-  scroll-behavior: smooth;
-  scroll-padding: 20% 0 0 0;
   letter-spacing: 0.05em;
 }
 section{
