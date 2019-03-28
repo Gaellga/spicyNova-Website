@@ -217,3 +217,39 @@ figure > p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
 }
+
+/*-------------- PAGE DE L'AR-----------------*/
+#feupernova{
+  background-color: rgb(36, 34, 53);
+}
+#ARh1{
+  color: orange;
+  width : 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+#ARh3{
+  font-size: 1.5em;
+  color: white;
+  margin-top: -1%;
+}
+.buttonAR{
+  font-family: "bebas_neueregular";
+  background-color: #1d1929;
+  color: orange;
+  padding: 0.5% 1% 0.5% 1%;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.9em;
+  width:250px;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+.feuperCitation{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.5em;
+  margin-left: 20%;
+  margin-top: -5%;
+  letter-spacing: 0px;
+}
