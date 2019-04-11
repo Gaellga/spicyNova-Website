@@ -223,7 +223,11 @@ figure > p{
 }
 
 /*-------------- PAGE DE L'AR-----------------*/
+<<<<<<< HEAD
 #feuperfond{
+=======
+#feupernova{
+>>>>>>> 8b82e6dba5d824fba6130477e7d687b138d19bec
   background-color: rgb(36, 34, 53);
 }
 #ARh1{
@@ -256,6 +260,7 @@ figure > p{
   margin-left: 20%;
   margin-top: -5%;
   letter-spacing: 0px;
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 768px) {
@@ -467,4 +472,6 @@ display: none;
   margin-top: -5%;
   letter-spacing: 0px;
   }
+=======
+>>>>>>> 8b82e6dba5d824fba6130477e7d687b138d19bec
 }
