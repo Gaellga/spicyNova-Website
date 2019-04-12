@@ -219,7 +219,7 @@ figure > p{
 }
 
 /*-------------- PAGE DE L'AR-----------------*/
-#feupernova{
+#fanzine{
   background-color: rgb(36, 34, 53);
 }
 #ARh1{
@@ -231,7 +231,7 @@ figure > p{
 #ARh3{
   font-size: 1.5em;
   color: white;
-  margin-top: -1%;
+  margin-top: 3%;
 }
 .buttonAR{
   font-family: "bebas_neueregular";
