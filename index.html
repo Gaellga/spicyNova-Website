@@ -7,6 +7,7 @@
     <meta name="keywords" content="spicyNova collectif collective artist artiste fanzine art numerique">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
     <link href="assets/CSS/style.css" rel="stylesheet" media="all" type="text/css">
     <title>spicyNova</title>
     <link rel="icon" type="image/png" href="assets/img/flamicon.png" />
@@ -17,25 +18,33 @@
 
 <body>
     <header>
-        <div class="row">
-            <div id="logoo" class="col-12 fixed-top"><img src="assets/img/logonb.png" class="img-fluid"
-                    alt="Logo du collectif" width="450"></div>
-        </div>
-        <div class="jumbotron text-center">
-            <h3>Bienvenue chez</h3>
-            <h1>spicyNova</h1>
-            <a href="#collectif" class="button">Le collectif</a><br>
-            <a href="#feupernova" class="button">Nos travaux</a><br>
-            <a href="#equipe" class="button">Notre équipe</a>
+        <div id="containerJumbo">
+            <div class="row">
+                <div class="text-center col-12 col-md-2"></div>
+                <div class="text-center col-12 col-md-10">
+                    <h3>Bienvenue chez</h3>
+                    <h1>spicyNova</h1>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="row">
+                    <div class="text-center col-12 col-md-2"></div>
+                    <div class="col-12 col-md-10 text-center">
+                        <a href="#collectif" class="button">Le collectif</a><br>
+                        <a href="#feupernova" class="button">Nos travaux</a><br>
+                        <a href="#equipe" class="button">Notre équipe</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <a href="#" id="scroll" style="display: none;"><span></span></a>
+
     <section>
-        <div class="container pb-4">
+        <div id="prez" class="container">
             <div id="collectif"></div>
             <div class="row">
-                <div class="col-1 col-md-3"></div>
-                <div class="col-10 col-md-9 text-center mb-5 mt-4">
+                <div class="col-12 text-center mb-5 mt-4 pl-4">
                     <p>spicyNova est un jeune collectif d’artistes fondé en 2018 par Alice Dontaine, Gaëlle Gaban et
                         Sébastien
                         Lebon, des anciens élèves diplômés de l'option arts numériques de la haute École des Arts
@@ -56,28 +65,28 @@
     <section>
         <div id="feupernova"></div>
         <div id="backgroundPink">
-            <div class="container pb-4">
-                <div class="row">
-                    <div class="col-12 col-md-6 mr-5">
-                        <h2 class="text-light">FeuperNova</h2>
-                        <p class="text-light text-left pt-4">Feupernova est le premier fanzine de SpicyNova !</p>
-                        <p class="text-light text-left">Pour ce premier exemplaire, l’imagination et la créativité des
+            <div class="container">
+                <div class="row" id="paraPer">
+                    <div class="col-12 col-md-6 pr-5">
+                        <h2 class="text-light text-center pr-4">FeuperNova</h2>
+                        <p class="text-light pt-4">Feupernova est le premier fanzine de SpicyNova !</p>
+                        <p class="text-light">Pour ce premier exemplaire, l’imagination et la créativité des
                             membres et
                             des artistes invités graviteront autour du thème de l’amour et de la mort.</p>
                         <p class="text-light"> Ce fanzine a la particularité d’être fait en réalité augmentée :
                             découvrez l’application mobile qui permettra de donner vie aux pages de la publication !</p>
                     </div>
-                    <div class="col-md-5 pl-5 text-right">
-                        <img src="assets/img/couv.png" width="600px" id="imgCouv" alt="couverture de Feupernova"></div>
+                    <div class="col-12 col-md-6 pl-5 text-right">
+                        <img src="assets/img/couv.png" width="600px" id="imgCouv" alt="couverture de Feupernova" class="img-responsive"></div>
                 </div>
-                <div id="imgContainer" class="row mt-5 text-center">
+                <div class="row text-center" id="imgContainer">
                     <div class="col-12 col-md-6">
-                        <a href="assets/img/apercu1.png" data-toggle="lightbox" data-gallery="img-gallery">
+                        <a href="assets/img/apercu1.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-responsive">
                             <img src="assets/img/apercu1.png" width="500px" class="img-responsive"
                                 alt="aperçu de l'intérieur de Feupernova 1"></a>
                     </div>
                     <div class="col-12 col-md-6">
-                        <a href="assets/img/apercu2.png" data-toggle="lightbox" data-gallery="img-gallery">
+                        <a href="assets/img/apercu2.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-responsive">
                             <img src="assets/img/apercu2.png" width="500px" class="img-responsive"
                                 alt="aperçu de l'intérieur de Feupernova 2"></a>
                     </div>
@@ -90,10 +99,12 @@
                     </div>
                 </div>
 
-                <div class="row mt-5 mb-5">
-                    <div class="col-12 col-md-12 text-center">
-                        <h3 class="text-light">--> Commandez un exemplaire ici ! <--</h3> <script src="//www.powr.io/powr.js?external-type=html"></script>
-                        <div class="powr-paypal-button" id="7edce0a6_1552994375"></div>
+                <div class="row mt-5 pb-5">
+                    <div class="col-12 text-center">
+                        <h3 class="text-light">--> Commandez un exemplaire ! <--</h3> <script
+                                src="//www.powr.io/powr.js?external-type=html">
+                                </script>
+                                <div class="powr-paypal-button" id="7edce0a6_1552994375"></div>
                     </div>
                 </div>
             </div>
@@ -103,7 +114,7 @@
         <div id="equipe"></div>
         <h2 class="text-center mb-5">spicyNova ne serait rien sans eux</h2>
         <div class="row text-center">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-sm-6 col-md-4">
                 <figure>
                     <figcaption>Alice Dontaine</figcaption>
                     <p>-PRIM'-</p>
@@ -118,7 +129,7 @@
                     </div>
                 </figure>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-sm-6 col-md-4">
                 <figure>
                     <figcaption>Sébastien Lebon</figcaption>
                     <p>-"Seabastard"-</p>
@@ -147,7 +158,7 @@
         </div>
         <div class="row text-center mb-5">
             <div class="col-12 col-md-2"></div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-sm-6 col-md-4">
                 <figure>
                     <figcaption>Camille Hidvégi</figcaption>
                     <p>-CAHBR-</p>
@@ -161,7 +172,7 @@
                     </div>
                 </figure>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-sm-6 col-md-4">
                 <figure>
                     <figcaption>Igor Liévin</figcaption>
                     <p>-Яogi-</p>
@@ -183,11 +194,11 @@
                 <div class="col-12 col-md-6 pb-3 text-center">
                     <p class="contact">Nous contacter :</p>
                     <adress>
-                        <p id="mailTel"><a href="mailto:spicynovacollectif@gmail.com">spicynovacollectif@gmail.com</a>
-                            <br>0491/247.266</p>
+                        <p class="mailTel"><a href="mailto:spicynovacollectif@gmail.com">spicynovacollectif@gmail.com</a></p>
+                        <p class="mailTel text-light pt-0">0491/247.266</p>
                     </adress>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-center" id="follow">
                     <p class="contact">Suivez-nous sur :</p>
                     <a href="https://www.facebook.com/spicynovacollectif/" aria-label="Access Facebook page"><i
                             class="fab fa-facebook text-white"></i></a>
@@ -207,7 +218,6 @@
             spicyNova. Tous droits réservés.
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
@@ -222,8 +232,4 @@
     </script>
     <script src="assets/JS/lightbox.js"></script>
 </body>
-
-<!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">-->
-
 </html>
