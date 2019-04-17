@@ -4,7 +4,7 @@
 
 Site officiel du collectif spicyNova, créé de A à Z par Gaëlle Gaban | [Github](https://github.com/Gaellga)     
 
-## Langages utilisés  
+## Technologies utilisées  
 
 * HTML5
 * CSS
