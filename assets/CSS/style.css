@@ -262,7 +262,7 @@ figure > p{
     padding: 15% 0% 30% 0%;
   }
   #containerJumbo{
-    margin-top: 25vh;
+    margin-top: 20vh;
     margin-bottom: 22vh;
   }
   #prez{
@@ -281,6 +281,8 @@ figure > p{
   #backgroundPink img{
     width: 250px;
     margin-top: 5vh;
+  }
+  #imgCouv{
     margin-left: -12vw;
   }
   #paraPer{
@@ -325,11 +327,11 @@ figure > p{
   background-image: none;
   }
   h1{
-    font-size: 4.2em;
+    font-size: 4.1em;
     padding: 15% 0% 30% 0%;
   }
   #containerJumbo{
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 20vh;
   }
   #prez{
@@ -395,7 +397,7 @@ figure > p{
     padding: 15% 0% 25% 0%;
   }
   #containerJumbo{
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 15vh;
   }
   #prez{
@@ -465,7 +467,7 @@ figure > p{
     padding: 15% 0% 20% 0%;
   }
   #containerJumbo{
-    margin-top: 16vh;
+    margin-top: 14vh;
     margin-bottom: 15vh;
   }
   #prez{
