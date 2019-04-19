@@ -16,7 +16,7 @@ Site officiel du collectif spicyNova, créé de A à Z par Gaëlle Gaban | [Gith
 * Lightbox
 
 ## Credits
-* Toutes les images inclues dans le site appartiennent au collectif spicyNova
+* Toutes les images incluses dans le site appartiennent au collectif spicyNova
 * Les icones de réseaux sociaux proviennent de Font Awesome
   
 ### Vous pouvez accéder au site directement via [le site officiel](https://spicynova.be/).
